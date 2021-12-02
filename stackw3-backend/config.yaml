@@ -1,0 +1,7 @@
+version: 3
+endpoint: https://stackw3.hasura.app/
+admin_secret: 8AGeKaZQatGy2X8aAJUww6elVnrlaEsMTBHuSK9HHmizj9j4VBO74Otfx4ut4tCH
+metadata_directory: metadata
+actions:
+  kind: synchronous
+  handler_webhook_baseurl: http://localhost:3000
